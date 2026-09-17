@@ -12,7 +12,7 @@
     --accent: #dc3545;
     --accent-hover: #c82333;
     --accent-light: #e84545;
-    --text: #e0e0e0;
+    --text: #ffffff;
     --text-dim: #aaa;
     --card-bg: #2d3036;
     --border: #3d4047;
@@ -196,10 +196,7 @@ nav {
     font-size: 3.5rem;
     font-weight: 800;
     margin-bottom: 10px;
-    background: linear-gradient(135deg, var(--accent), var(--accent-light));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: #ffffff;
 }
 
 .hero .subtitle {
@@ -237,13 +234,14 @@ nav {
 
 .btn-primary {
     background: var(--accent);
-    color: var(--primary);
+    color: #ffffff;
 }
 
 .btn-primary:hover {
     background: var(--accent-hover);
+    color: #ffffff;
     transform: translateY(-2px);
-    box-shadow: 0 5px 20px rgba(220, 53, 69, 0.3);
+    box-shadow: 0 5px 20px rgba(220, 53, 69, 0.4);
 }
 
 .btn-outline {
