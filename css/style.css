@@ -444,6 +444,18 @@ section {
     transition: all 0.3s;
 }
 
+.contact-social a[href*="wa.me"]:hover {
+    background: #128C7E;
+    border-color: #128C7E;
+    transform: translateY(-3px);
+}
+
+.contact-social a[href*="mailto"]:hover {
+    background: #00b8e6;
+    border-color: #00b8e6;
+    transform: translateY(-3px);
+}
+
 .social-link:hover {
     background: var(--accent);
     color: var(--primary);
@@ -451,42 +463,21 @@ section {
     transform: translateY(-3px);
 }
 
-.contact-form {
-    flex: 1;
-    min-width: 300px;
+.contact-social a[href*="wa.me"] {
+    background: #25D366;
+    border-color: #25D366;
+    color: #fff;
 }
 
-.contact-form form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+.contact-social a[href*="wa.me"]:hover {
+    background: #128C7E;
+    border-color: #128C7E;
 }
 
-.contact-form input,
-.contact-form textarea {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 14px 18px;
-    color: var(--text);
-    font-family: 'Inter', sans-serif;
-    font-size: 0.95rem;
-    transition: border-color 0.3s;
-    outline: none;
-}
-
-.contact-form input:focus,
-.contact-form textarea:focus {
+.contact-social a[href*="mailto"] {
+    background: var(--accent);
     border-color: var(--accent);
-}
-
-.contact-form textarea {
-    resize: vertical;
-    min-height: 120px;
-}
-
-.contact-form button {
-    align-self: flex-start;
+    color: var(--primary);
 }
 
 /* ===== FOOTER ===== */
