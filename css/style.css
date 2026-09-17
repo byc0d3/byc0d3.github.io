@@ -512,7 +512,7 @@ section {
 .contact-social a[href*="mailto"] {
     background: var(--accent);
     border-color: var(--accent);
-    color: var(--primary);
+    color: #ffffff;
 }
 
 /* ===== FOOTER ===== */
