@@ -273,10 +273,6 @@ section {
     color: var(--text);
 }
 
-.section-title h2 span {
-    color: var(--accent);
-}
-
 .section-title p {
     color: var(--text-dim);
     font-size: 1rem;
