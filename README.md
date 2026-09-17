@@ -8,7 +8,7 @@ Sitio web profesional de presentación y portafolio.
 
 Este sitio se despliega automáticamente en GitHub Pages.
 
-- **URL:** https://byc0d3.github.io/portafolio/
+- **URL:** https://byc0d3.github.io
 - **Rama:** `main`
 
 ## 📄 Secciones
